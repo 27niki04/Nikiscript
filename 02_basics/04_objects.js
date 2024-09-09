@@ -53,7 +53,27 @@ users[1].email
 
 //console.log(User.hasOwnProperty('isLoggedin'));   =>false
 
+const course={
+    coursename: "English",
+    price: "999",
+    courseInstructor:"Nikita"
+}
 
+//course.courseInstructor
+
+const {courseInstructor} = course
+
+// console.log(courseInstructor); =>Nikita
+
+const {courseInstructor: instructor} =course
+
+//console.log(instructor);  =>Nikita
+
+const  navbar= () =>{
+
+}
+ navbar():void
+ 
 
 
 
