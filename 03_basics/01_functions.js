@@ -18,3 +18,22 @@
 
 // const res=addition(3,5)
 // console.log("Result: ",res);  =>Result:  8
+
+
+function loginUserMessage(username){
+    if(username === undefined){
+        console.log("Please enter a username");
+        return 
+        
+    }
+    return `${username} just logged in`
+}
+console.log(loginUserMessage());
+
+
+//console.log(loginUserMessage("nikita"));  =>nikita just logged in
+
+//console.log(loginUserMessage(""));  => just logged in
+
+// console.log(loginUserMessage());  =>undefined just logged in
+
